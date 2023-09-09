@@ -1,1 +1,1 @@
-6-size.c Task
+4-puts.c Task
