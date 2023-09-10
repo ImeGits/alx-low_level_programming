@@ -1,1 +1,1 @@
-3-print_alphabets.c
+2-print_alphabet.c
