@@ -3,7 +3,7 @@
 /**
  * main - prints out all the numbers between 00 and 99
  * with no two digits being the same
- * Return; 0 (Success)
+ * Return; Always 0 (Success)
  */
 int main(void)
 {
