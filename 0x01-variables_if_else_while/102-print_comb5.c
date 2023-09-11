@@ -3,7 +3,7 @@
 /**
  * main - program that prints all possible combinations of two two digit
  * The numbers should range from 0 to 99
- * Numbers must be seperated by ,followed by a space 
+ * Numbers must be seperated by comma, followed by a space 
  * All numbers should be printed with two digits, 1 should be printed as 01
  * Return: 0
  */
@@ -11,11 +11,11 @@
 int main(void)
 {
 	int n1 = 48;
-	int a= 0;
+	int a = 0;
 	int b;
 	int com = 44;
 
-	while (a<= 99)
+	while (a <= 99)
 	{
 		b = a + 1;
 		while (b <= 99)
@@ -25,7 +25,7 @@ int main(void)
 			putchar(32);
 			putchar((b / 10) + n1);
 			putchar((b % 10) + n1);
-			if (a != 98 || b !=99)
+			if (a != 98 || b != 99)
 			{
 				putchar(com);
 				putchar(32);
