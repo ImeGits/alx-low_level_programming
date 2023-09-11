@@ -1,1 +1,1 @@
-100-print_comb3.c
+1-last_digit.c
