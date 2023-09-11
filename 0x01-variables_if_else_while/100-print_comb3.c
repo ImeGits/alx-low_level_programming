@@ -3,7 +3,7 @@
 /**
  * main - prints out all the numbers between 00 and 99
  * with no two digits being the same
- * Return; 0
+ * Return; 0 (Success)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 			putchar(i);
 			putchar(j);
 
-			if (i == 56 && j== 57)
+			if (i == 56 && j == 57)
 			{
 				break;
 			}
