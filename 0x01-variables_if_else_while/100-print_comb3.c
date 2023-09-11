@@ -1,30 +1,34 @@
 #include <stdio.h>
 
 /**
- * main - prints all possible different combinations of three digits
- * Return: Always 0 (Success)
+ * main - prints out all the numbers between 00 and 99
+ * with no two digits being the same
+ * Return; 0
  */
 int main(void)
 {
-	int n, m, l;
+	int i, j;
 
-	for (n = 48; n < 58; n++)
+	for (i = 48; i < 58; i++)
 	{
-		for (m = 49; m < 58; m++)
+		for (j = i; j < 58; j++)
 		{
-			for (l = 50; l < 58; l++)
+			if (i == j)
 			{
-				if (l > m && m > n)
-				{
-					putchar(n);
-					putchar(m);
-					putchar(l);
-					if (n != 55 || m != 56)
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
+				continue;
+			}
+
+			putchar(i);
+			putchar(j);
+
+			if (i == 56 && j== 57)
+			{
+				break;
+			}
+			else
+			{
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
