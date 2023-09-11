@@ -5,6 +5,7 @@
  * with no two digits being the same
  * Return; Always 0 (Success)
  */
+
 int main(void)
 {
 	int i, j;
