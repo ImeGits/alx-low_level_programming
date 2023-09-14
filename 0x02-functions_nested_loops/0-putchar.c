@@ -1,22 +1,21 @@
 #include "main.h"
 
 /**
- * main - prints the word Holberton
+ * main -Entry point of my code,
  *
- * Return: 0 on success execution.
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char s[] = "_putchar";
-	int i = 0;
-
-	while (s[i] != '\0')
-	{
-		_putchar(s[i]);
-		i++;
-	}
-	_putchar(10);
-
-	return (0);
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
