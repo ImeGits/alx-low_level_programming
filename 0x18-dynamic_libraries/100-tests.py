@@ -1,3 +1,5 @@
+#!/bin/usr/python3
+
 import random
 import ctypes
 
